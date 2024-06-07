@@ -56,7 +56,7 @@ Create and Update operations require a `Body` input. This should be a valid JSON
 
 **For Create operations, the required fields must be provided.**
 
-### Retrieve and Update operations
+### Retrieve, Update and Delete operations
 
 Retrieve and Update operations require an `Entity ID`. This must follow the API convention (MODULExID). Example:
 
@@ -81,4 +81,4 @@ You can refer to the limitations of the query [here](https://community.vtiger.co
 
 ## Version History
 
-- **v1.0.0**: Initial release.
+- **v0.1.0**: Initial release.
