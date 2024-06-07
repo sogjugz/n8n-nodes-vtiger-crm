@@ -3,6 +3,8 @@ import { ICredentialType, INodeProperties } from 'n8n-workflow';
 export class VtigerApi implements ICredentialType {
 	name = 'vtigerApi';
 	displayName = 'Vtiger CRM Credentials API';
+	documentationUrl =
+		'https://github.com/sogjugz/n8n-nodes-vtiger-crm/tree/master?tab=readme-ov-file#installation';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'Host',

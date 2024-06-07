@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-vtiger-crm",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Developer Tools"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/sogjugz/n8n-nodes-vtiger-crm/tree/master?tab=readme-ov-file#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/sogjugz/n8n-nodes-vtiger-crm/tree/master?tab=readme-ov-file#usage"
+			}
+		]
+	}
+}
