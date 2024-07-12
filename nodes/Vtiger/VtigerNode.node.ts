@@ -283,7 +283,7 @@ export class VtigerNode implements INodeType {
 				if (!entity?.success) {
 					throw new NodeOperationError(
 						this.getNode(),
-						'Entity does not exists or ' + entity.error?.message + ' (' + entity.error?.code + ')',
+						'Entity does not exists or ' + entity.error?.message,
 					);
 				}
 

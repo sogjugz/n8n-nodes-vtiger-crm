@@ -84,3 +84,4 @@ You can refer to the limitations of the query [here](https://community.vtiger.co
 - **v0.1.0**: Initial release.
 - **v0.1.1**: Fixed a bug in the `Update` operation.
 - **v0.1.2**: Fixed a bug in the `Query` operation.
+- **v0.1.3**: Remove code from error message.
