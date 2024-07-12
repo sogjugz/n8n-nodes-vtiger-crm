@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-vtiger-crm",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Interacts with Vtiger API",
 	"keywords": [
 		"n8n-community-node-package",
