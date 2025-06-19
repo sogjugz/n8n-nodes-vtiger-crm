@@ -32,7 +32,20 @@ This node supports the following operations with VTiger CRM:
 
 ## Credentials
 
-The VTiger API requires authentication. You need to provide a username and an access key with sufficient privileges to perform operations on the entities. You can find the access key information under “My Preferences” in the CRM Web UI.
+The VTiger API requires authentication. You need to provide your VTiger CRM instance URL, a username and an access key with sufficient privileges to perform operations on the entities.
+
+### Host
+
+The host is the URL of your VTiger CRM instance. It should be in the format `https://your-vtiger-instance.com`. **Important**: Do not include a trailing slash `/` at the end of the URL and do not include the `/webservice.php` path.
+
+### Username
+
+The username is ussualy the email address of the user you want to authenticate as.
+
+### Access Key
+
+The access key is the API key of the user you want to authenticate as. You can find the access key information under “My Preferences” in the CRM Web UI.
+
 
 ## Compatibility
 
