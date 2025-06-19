@@ -4,6 +4,7 @@ import {
 	INodeType,
 	INodeTypeDescription,
 	NodeOperationError,
+	NodeConnectionType,
 } from 'n8n-workflow';
 import md5 from 'crypto-js/md5';
 
@@ -19,8 +20,8 @@ export class VtigerNode implements INodeType {
 		defaults: {
 			name: 'Vtiger',
 		},
-		inputs: ['main'],
-		outputs: ['main'],
+		inputs: [NodeConnectionType.Main],
+		outputs: [NodeConnectionType.Main],
 		credentials: [
 			{
 				name: 'vtigerApi',
